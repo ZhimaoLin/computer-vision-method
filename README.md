@@ -1,5 +1,6 @@
-# computer-vision-method
-The computer vision method of the bolt looseness detection
+# Use Computer Vision to Read Dial Indicator
+
+Computer vision can be also used to detect bolt looseness. The looseness of the bolt is converted to the reading of a depth gauge through the inspection hole on the bolt. Then, an algorithm using [Hough Transform](https://en.wikipedia.org/wiki/Hough_transform) with [Canny edge detection](https://en.wikipedia.org/wiki/Canny_edge_detector) was developed to read the dial indicator. With this algorithm, a range of 0-3 $mm$ depth change can be detected with a resolution of 1 $\mu m$. 
 
 ## References
 
